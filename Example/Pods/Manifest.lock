@@ -1,0 +1,25 @@
+PODS:
+  - UBShareActivities (0.1.0):
+    - UBShareActivities/Wechat (= 0.1.0)
+  - UBShareActivities/Wechat (0.1.0):
+    - WechatOpenSDK
+  - WechatOpenSDK (1.8.6)
+
+DEPENDENCIES:
+  - UBShareActivities (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  UBShareActivities:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UBShareActivities: 6ab65943a457c71c5d53bb657eeee456a73e4dda
+  WechatOpenSDK: 368ae03b72ee3ea1328c4f11326fbb5d2721d118
+
+PODFILE CHECKSUM: 9aea528a587e51571b03c7ff1930e6388623c8b0
+
+COCOAPODS: 1.7.5

@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		05B10DF116F3C462E3BB3534 /* Pods-UBShareActivities_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBShareActivities_Example.debug.xcconfig"; path = "Target Support Files/Pods-UBShareActivities_Example/Pods-UBShareActivities_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2EC16EB8BE27023B8009CD8F /* Pods-UBShareActivities_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBShareActivities_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UBShareActivities_Tests/Pods-UBShareActivities_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		427014017C80587688D3752D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		427014017C80587688D3752D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		52063173A65F752275EBDD33 /* Pods_UBShareActivities_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBShareActivities_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* UBShareActivities_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UBShareActivities_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		73E86A0407A39DC4A21DC7D3 /* Pods-UBShareActivities_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBShareActivities_Example.release.xcconfig"; path = "Target Support Files/Pods-UBShareActivities_Example/Pods-UBShareActivities_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD9E3A245B0016B09491F4D0 /* Pods_UBShareActivities_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBShareActivities_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E372E86B973BE12D2A7558E8 /* UBShareActivities.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UBShareActivities.podspec; path = ../UBShareActivities.podspec; sourceTree = "<group>"; };
-		F5AC574978A3A2608BC9D571 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E372E86B973BE12D2A7558E8 /* UBShareActivities.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UBShareActivities.podspec; path = ../UBShareActivities.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F5AC574978A3A2608BC9D571 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				2EC16EB8BE27023B8009CD8F /* Pods-UBShareActivities_Tests.debug.xcconfig */,
 				63EC98DDA374BED88E759C0A /* Pods-UBShareActivities_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = crazysiri;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 58KF4M5375;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 05B10DF116F3C462E3BB3534 /* Pods-UBShareActivities_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58KF4M5375;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UBShareActivities/UBShareActivities-Prefix.pch";
 				INFOPLIST_FILE = "UBShareActivities/UBShareActivities-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 73E86A0407A39DC4A21DC7D3 /* Pods-UBShareActivities_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58KF4M5375;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UBShareActivities/UBShareActivities-Prefix.pch";
 				INFOPLIST_FILE = "UBShareActivities/UBShareActivities-Info.plist";

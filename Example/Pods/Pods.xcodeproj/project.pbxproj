@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 05D09FC04F20F725A4C59CAFF12D6035 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03B6EAED342650B93A87EE972771185D /* Pods-UBShareActivities_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F26198F957ABC09615C0166E5109F98 /* Pods-UBShareActivities_Tests-dummy.m */; };
+		0685CF6E6D379A2B290FCE6737A087FE /* UIImage+maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3DEAE4CCCA8E4C88DD96145265C365 /* UIImage+maker.m */; };
+		0DF3DB957AAA7D4313CF024E9285F1BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		573856604F94B0C428618612C36D6658 /* UBShareActivities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05843AB52A0449AC19EA6E65AA04BAB7 /* UBShareActivities-dummy.m */; };
+		5DB048A9A7A95362914DCFCA8001E631 /* UIImage+maker.h in Headers */ = {isa = PBXBuildFile; fileRef = 169D40F1DB2FA1421585E2CA814DC18C /* UIImage+maker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A5B45CD4E352CC2F3DF11237953CDAB /* Pods-UBShareActivities_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2785CAD0D89D3ED601A2ED42A22840F /* Pods-UBShareActivities_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892086F584DC3B3B05EE93A56E7D9ED7 /* UBShareActivities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 799EC7509DFE76828E4115D4C8CA36D1 /* UBShareActivities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91F343E67D94A096FE3B724805D6FB32 /* Pods-UBShareActivities_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BA975E98E8AD461F1292F255ACD1772 /* Pods-UBShareActivities_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		995FD79D3077A8D46D66F079FAF6752A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BB68C2CFA6661B5FDA0DC9D2563BA442 /* UBWechat.h in Headers */ = {isa = PBXBuildFile; fileRef = 3210600E3EC99EB9038B5A730DF4A804 /* UBWechat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DECFE9F98BDD0E3CCC5EA222B219A98E /* Pods-UBShareActivities_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 734207B9BFEF232CB039245457D91039 /* Pods-UBShareActivities_Example-dummy.m */; };
+		DF73EEEFF6AE534FC75DB7525932C7E1 /* UBWechatPayConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9821FDBAF9880576CF7F02D1BDFF15D0 /* UBWechatPayConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3FFCFBA3A8BB1214CC55F6F6F58C4A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F051DA5820AD42F2F1DF68BFE8884D7B /* UBWechatPayConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEEB2DBF98B309055D67759905EE393 /* UBWechatPayConfig.m */; };
+		F745AB962DB4C4AE5F2F1DBFB2707ED0 /* UBWechat.m in Sources */ = {isa = PBXBuildFile; fileRef = 607C5B3BD24F4B976A692C10AB58CB09 /* UBWechat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1408EB6627BB243464926A43CC685DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		31914382415CD1E502E4E5A065D9DBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		635AC8103FFD511DFE6E98A7D0FD2B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21C9BAC0266606633CB5761BA1D66D4;
+			remoteInfo = "Pods-UBShareActivities_Example";
+		};
+		9D018C6FD1C637FD9FC58B034CA2D888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7FA2845141304EB61BD47EC37A2DF99;
+			remoteInfo = UBShareActivities;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0390D1EE6E5DC39918A321C3F6D497B0 /* Pods-UBShareActivities_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBShareActivities_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		05843AB52A0449AC19EA6E65AA04BAB7 /* UBShareActivities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UBShareActivities-dummy.m"; sourceTree = "<group>"; };
+		087F831CB27CE3E9668BDB8AFC18AAE3 /* Pods-UBShareActivities_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UBShareActivities_Tests.modulemap"; sourceTree = "<group>"; };
+		09722AF46A7353260522B9CC98FC6677 /* Pods-UBShareActivities_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UBShareActivities_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		169D40F1DB2FA1421585E2CA814DC18C /* UIImage+maker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+maker.h"; path = "UBShareActivities/Classes/WeChat/UIImage+maker.h"; sourceTree = "<group>"; };
+		191769DD2E2221DBFE2BAB11C829502A /* UBShareActivities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBShareActivities-prefix.pch"; sourceTree = "<group>"; };
+		278F723230234D811714A73B7B5AE623 /* Pods-UBShareActivities_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UBShareActivities_Example.modulemap"; sourceTree = "<group>"; };
+		2B9A6A52040DE9B557D74FBE4C0C0E3D /* Pods-UBShareActivities_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBShareActivities_Example-Info.plist"; sourceTree = "<group>"; };
+		3130A6A15C7496D929F33AFF4DBFBC5D /* Pods-UBShareActivities_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UBShareActivities_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3210600E3EC99EB9038B5A730DF4A804 /* UBWechat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBWechat.h; path = UBShareActivities/Classes/WeChat/UBWechat.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48A2AC032A96B8E0F54DFFB9E066B1DF /* UBShareActivities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UBShareActivities.framework; path = UBShareActivities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA9291673E3874DDE9628B4C1F6C59E /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.6.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		4F26198F957ABC09615C0166E5109F98 /* Pods-UBShareActivities_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UBShareActivities_Tests-dummy.m"; sourceTree = "<group>"; };
+		569B8DEE15649D54C3125483D37008C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5CBE026E6369B031684BF943B38504D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		607C5B3BD24F4B976A692C10AB58CB09 /* UBWechat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBWechat.m; path = UBShareActivities/Classes/WeChat/UBWechat.m; sourceTree = "<group>"; };
+		6ACC2C7DDBD9507F48A02288541424CE /* Pods-UBShareActivities_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBShareActivities_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BA975E98E8AD461F1292F255ACD1772 /* Pods-UBShareActivities_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UBShareActivities_Tests-umbrella.h"; sourceTree = "<group>"; };
+		734207B9BFEF232CB039245457D91039 /* Pods-UBShareActivities_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UBShareActivities_Example-dummy.m"; sourceTree = "<group>"; };
+		799EC7509DFE76828E4115D4C8CA36D1 /* UBShareActivities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBShareActivities-umbrella.h"; sourceTree = "<group>"; };
+		7A3DEAE4CCCA8E4C88DD96145265C365 /* UIImage+maker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+maker.m"; path = "UBShareActivities/Classes/WeChat/UIImage+maker.m"; sourceTree = "<group>"; };
+		7ACEE4CE7D39FAF6253842CC3023A846 /* Pods_UBShareActivities_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UBShareActivities_Example.framework; path = "Pods-UBShareActivities_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFFAFECCBA7BCE6E16659C6403DA4B4 /* Pods-UBShareActivities_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBShareActivities_Tests-Info.plist"; sourceTree = "<group>"; };
+		7EEEB2DBF98B309055D67759905EE393 /* UBWechatPayConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBWechatPayConfig.m; path = UBShareActivities/Classes/WeChat/UBWechatPayConfig.m; sourceTree = "<group>"; };
+		8C949B192CD7A0FD275C8F31741F1A12 /* Pods-UBShareActivities_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBShareActivities_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9304223AE14C2AD0DE1E3C50180E4C98 /* UBShareActivities.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UBShareActivities.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		964F13CB2490D64BF03E739B974FF6BC /* Pods-UBShareActivities_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UBShareActivities_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97D3F7244C792BB506792F1A717E95AE /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.6.1/WXApiObject.h; sourceTree = "<group>"; };
+		9821FDBAF9880576CF7F02D1BDFF15D0 /* UBWechatPayConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBWechatPayConfig.h; path = UBShareActivities/Classes/WeChat/UBWechatPayConfig.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A311B35A0CD3389FE554333BA60EA20B /* Pods_UBShareActivities_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UBShareActivities_Tests.framework; path = "Pods-UBShareActivities_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A596A3BDED38ECCCDF2DEAD1A83A784B /* UBShareActivities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UBShareActivities.modulemap; sourceTree = "<group>"; };
+		B404F0AE982B86A79964A4AB6913BB85 /* Pods-UBShareActivities_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBShareActivities_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4D084E65EE17A2CE6D65D92EF8B8587 /* Pods-UBShareActivities_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBShareActivities_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BD2E1DFE513768D40E08A8CFE95993D2 /* UBShareActivities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UBShareActivities.xcconfig; sourceTree = "<group>"; };
+		C3DE14E0D566BAD353EED578A94AADEA /* Pods-UBShareActivities_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBShareActivities_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D780B40853327DD8090431A6577005D1 /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
+		E2785CAD0D89D3ED601A2ED42A22840F /* Pods-UBShareActivities_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UBShareActivities_Example-umbrella.h"; sourceTree = "<group>"; };
+		EC586271F2B2D04EEDB121A5564F0AE7 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.6.1/WXApi.h; sourceTree = "<group>"; };
+		F629257B175DE7623275C1AEF976EB5A /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.6.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		FCE5B9519BA8D76CF34FD742C79C401C /* UBShareActivities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UBShareActivities-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		292F51C5CDC16A5624CE840618E9735C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995FD79D3077A8D46D66F079FAF6752A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715781D17159C0A0B2E1799A1F8AB27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF3DB957AAA7D4313CF024E9285F1BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E3CF329B5D90F109EF7878B8495FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FFCFBA3A8BB1214CC55F6F6F58C4A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051BABE142B1FF30D5FD5F9EF8E0C6D2 /* UBShareActivities */ = {
+			isa = PBXGroup;
+			children = (
+				9655BB71ADBFF33EC5EA9D7737B8FFB6 /* Pod */,
+				5720388DE94824937E017AD4A79E4D53 /* Support Files */,
+				441374C68E72EA0420D8D4BF852F4139 /* Wechat */,
+			);
+			name = UBShareActivities;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		441374C68E72EA0420D8D4BF852F4139 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				3210600E3EC99EB9038B5A730DF4A804 /* UBWechat.h */,
+				607C5B3BD24F4B976A692C10AB58CB09 /* UBWechat.m */,
+				9821FDBAF9880576CF7F02D1BDFF15D0 /* UBWechatPayConfig.h */,
+				7EEEB2DBF98B309055D67759905EE393 /* UBWechatPayConfig.m */,
+				169D40F1DB2FA1421585E2CA814DC18C /* UIImage+maker.h */,
+				7A3DEAE4CCCA8E4C88DD96145265C365 /* UIImage+maker.m */,
+			);
+			name = Wechat;
+			sourceTree = "<group>";
+		};
+		52C06D29DE8A74D8B72B83758947D95F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				680929BE9DEA4D69238A5E14A625C2B9 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5720388DE94824937E017AD4A79E4D53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A596A3BDED38ECCCDF2DEAD1A83A784B /* UBShareActivities.modulemap */,
+				BD2E1DFE513768D40E08A8CFE95993D2 /* UBShareActivities.xcconfig */,
+				05843AB52A0449AC19EA6E65AA04BAB7 /* UBShareActivities-dummy.m */,
+				FCE5B9519BA8D76CF34FD742C79C401C /* UBShareActivities-Info.plist */,
+				191769DD2E2221DBFE2BAB11C829502A /* UBShareActivities-prefix.pch */,
+				799EC7509DFE76828E4115D4C8CA36D1 /* UBShareActivities-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UBShareActivities";
+			sourceTree = "<group>";
+		};
+		680929BE9DEA4D69238A5E14A625C2B9 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4CA9291673E3874DDE9628B4C1F6C59E /* WechatAuthSDK.h */,
+				EC586271F2B2D04EEDB121A5564F0AE7 /* WXApi.h */,
+				97D3F7244C792BB506792F1A717E95AE /* WXApiObject.h */,
+				A6E3A73C921468A47A8EF72ECCBFEB71 /* Frameworks */,
+				C1232C8919431CF9B0951B037E19EB75 /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		6DBA23EC1D20417F926263C35318BD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ACEE4CE7D39FAF6253842CC3023A846 /* Pods_UBShareActivities_Example.framework */,
+				A311B35A0CD3389FE554333BA60EA20B /* Pods_UBShareActivities_Tests.framework */,
+				48A2AC032A96B8E0F54DFFB9E066B1DF /* UBShareActivities.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A356B2701993BC4859AB2944D2B307 /* Pods-UBShareActivities_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				087F831CB27CE3E9668BDB8AFC18AAE3 /* Pods-UBShareActivities_Tests.modulemap */,
+				09722AF46A7353260522B9CC98FC6677 /* Pods-UBShareActivities_Tests-acknowledgements.markdown */,
+				B404F0AE982B86A79964A4AB6913BB85 /* Pods-UBShareActivities_Tests-acknowledgements.plist */,
+				4F26198F957ABC09615C0166E5109F98 /* Pods-UBShareActivities_Tests-dummy.m */,
+				7AFFAFECCBA7BCE6E16659C6403DA4B4 /* Pods-UBShareActivities_Tests-Info.plist */,
+				6BA975E98E8AD461F1292F255ACD1772 /* Pods-UBShareActivities_Tests-umbrella.h */,
+				6ACC2C7DDBD9507F48A02288541424CE /* Pods-UBShareActivities_Tests.debug.xcconfig */,
+				C3DE14E0D566BAD353EED578A94AADEA /* Pods-UBShareActivities_Tests.release.xcconfig */,
+			);
+			name = "Pods-UBShareActivities_Tests";
+			path = "Target Support Files/Pods-UBShareActivities_Tests";
+			sourceTree = "<group>";
+		};
+		9330FF94972698CDCAE2A4A1D2328F54 /* Pods-UBShareActivities_Example */ = {
+			isa = PBXGroup;
+			children = (
+				278F723230234D811714A73B7B5AE623 /* Pods-UBShareActivities_Example.modulemap */,
+				964F13CB2490D64BF03E739B974FF6BC /* Pods-UBShareActivities_Example-acknowledgements.markdown */,
+				0390D1EE6E5DC39918A321C3F6D497B0 /* Pods-UBShareActivities_Example-acknowledgements.plist */,
+				734207B9BFEF232CB039245457D91039 /* Pods-UBShareActivities_Example-dummy.m */,
+				3130A6A15C7496D929F33AFF4DBFBC5D /* Pods-UBShareActivities_Example-frameworks.sh */,
+				2B9A6A52040DE9B557D74FBE4C0C0E3D /* Pods-UBShareActivities_Example-Info.plist */,
+				E2785CAD0D89D3ED601A2ED42A22840F /* Pods-UBShareActivities_Example-umbrella.h */,
+				B4D084E65EE17A2CE6D65D92EF8B8587 /* Pods-UBShareActivities_Example.debug.xcconfig */,
+				8C949B192CD7A0FD275C8F31741F1A12 /* Pods-UBShareActivities_Example.release.xcconfig */,
+			);
+			name = "Pods-UBShareActivities_Example";
+			path = "Target Support Files/Pods-UBShareActivities_Example";
+			sourceTree = "<group>";
+		};
+		9655BB71ADBFF33EC5EA9D7737B8FFB6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5CBE026E6369B031684BF943B38504D5 /* LICENSE */,
+				569B8DEE15649D54C3125483D37008C5 /* README.md */,
+				9304223AE14C2AD0DE1E3C50180E4C98 /* UBShareActivities.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A6E3A73C921468A47A8EF72ECCBFEB71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F629257B175DE7623275C1AEF976EB5A /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB79F5F8B2FE915C2A853A56C9E043FC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				051BABE142B1FF30D5FD5F9EF8E0C6D2 /* UBShareActivities */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1232C8919431CF9B0951B037E19EB75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D780B40853327DD8090431A6577005D1 /* WechatOpenSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		C8366C16B36EC170C37850A890A00AD3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9330FF94972698CDCAE2A4A1D2328F54 /* Pods-UBShareActivities_Example */,
+				71A356B2701993BC4859AB2944D2B307 /* Pods-UBShareActivities_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BB79F5F8B2FE915C2A853A56C9E043FC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				52C06D29DE8A74D8B72B83758947D95F /* Pods */,
+				6DBA23EC1D20417F926263C35318BD68 /* Products */,
+				C8366C16B36EC170C37850A890A00AD3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E9B799DA922BFF67B890BC34B335899 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892086F584DC3B3B05EE93A56E7D9ED7 /* UBShareActivities-umbrella.h in Headers */,
+				BB68C2CFA6661B5FDA0DC9D2563BA442 /* UBWechat.h in Headers */,
+				DF73EEEFF6AE534FC75DB7525932C7E1 /* UBWechatPayConfig.h in Headers */,
+				5DB048A9A7A95362914DCFCA8001E631 /* UIImage+maker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3AC234A0B21955071D74BFF8E317F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5B45CD4E352CC2F3DF11237953CDAB /* Pods-UBShareActivities_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC4BFD2367F2BCFCA2019FCFC68A6D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F343E67D94A096FE3B724805D6FB32 /* Pods-UBShareActivities_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8FCAA3479C7AD0BC1AF849ADB13E3CDA /* Pods-UBShareActivities_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EFF6EED21D9D03440DA77CADC75D80 /* Build configuration list for PBXNativeTarget "Pods-UBShareActivities_Tests" */;
+			buildPhases = (
+				BDC4BFD2367F2BCFCA2019FCFC68A6D7 /* Headers */,
+				7792B0665A4D8D310D3D8EACF0BF1437 /* Sources */,
+				715781D17159C0A0B2E1799A1F8AB27A /* Frameworks */,
+				17596B94CE6E7C9A85CEE0455412CD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8237B7057D245FC7AD4FCD2ADDEC718C /* PBXTargetDependency */,
+			);
+			name = "Pods-UBShareActivities_Tests";
+			productName = "Pods-UBShareActivities_Tests";
+			productReference = A311B35A0CD3389FE554333BA60EA20B /* Pods_UBShareActivities_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A21C9BAC0266606633CB5761BA1D66D4 /* Pods-UBShareActivities_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811C8A4B5A9BED0C4D70E8710E36FA63 /* Build configuration list for PBXNativeTarget "Pods-UBShareActivities_Example" */;
+			buildPhases = (
+				1A3AC234A0B21955071D74BFF8E317F3 /* Headers */,
+				BC6DEFD2C17451FC3FA3873D2976F5C3 /* Sources */,
+				81E3CF329B5D90F109EF7878B8495FC5 /* Frameworks */,
+				F6FBDFF0860652ED9E3F77DEB4334222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5158C910EA1ED46DDB17673FBD5236BC /* PBXTargetDependency */,
+				ACD8C541F414ED0E941B6A877FCD8ABE /* PBXTargetDependency */,
+			);
+			name = "Pods-UBShareActivities_Example";
+			productName = "Pods-UBShareActivities_Example";
+			productReference = 7ACEE4CE7D39FAF6253842CC3023A846 /* Pods_UBShareActivities_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7FA2845141304EB61BD47EC37A2DF99 /* UBShareActivities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93442ABD0CAFB8EEE55E21C5A71D75F4 /* Build configuration list for PBXNativeTarget "UBShareActivities" */;
+			buildPhases = (
+				0E9B799DA922BFF67B890BC34B335899 /* Headers */,
+				8DFD47C6C5F523949956AA6A68450659 /* Sources */,
+				292F51C5CDC16A5624CE840618E9735C /* Frameworks */,
+				06585CFC334ACF0BA387FEA0964843DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306F2B7A52D3D1EF7FC62A11493DCF85 /* PBXTargetDependency */,
+			);
+			name = UBShareActivities;
+			productName = UBShareActivities;
+			productReference = 48A2AC032A96B8E0F54DFFB9E066B1DF /* UBShareActivities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6DBA23EC1D20417F926263C35318BD68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A21C9BAC0266606633CB5761BA1D66D4 /* Pods-UBShareActivities_Example */,
+				8FCAA3479C7AD0BC1AF849ADB13E3CDA /* Pods-UBShareActivities_Tests */,
+				D7FA2845141304EB61BD47EC37A2DF99 /* UBShareActivities */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06585CFC334ACF0BA387FEA0964843DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17596B94CE6E7C9A85CEE0455412CD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FBDFF0860652ED9E3F77DEB4334222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7792B0665A4D8D310D3D8EACF0BF1437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B6EAED342650B93A87EE972771185D /* Pods-UBShareActivities_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFD47C6C5F523949956AA6A68450659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573856604F94B0C428618612C36D6658 /* UBShareActivities-dummy.m in Sources */,
+				F745AB962DB4C4AE5F2F1DBFB2707ED0 /* UBWechat.m in Sources */,
+				F051DA5820AD42F2F1DF68BFE8884D7B /* UBWechatPayConfig.m in Sources */,
+				0685CF6E6D379A2B290FCE6737A087FE /* UIImage+maker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6DEFD2C17451FC3FA3873D2976F5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECFE9F98BDD0E3CCC5EA222B219A98E /* Pods-UBShareActivities_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306F2B7A52D3D1EF7FC62A11493DCF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 31914382415CD1E502E4E5A065D9DBFF /* PBXContainerItemProxy */;
+		};
+		5158C910EA1ED46DDB17673FBD5236BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UBShareActivities;
+			target = D7FA2845141304EB61BD47EC37A2DF99 /* UBShareActivities */;
+			targetProxy = 9D018C6FD1C637FD9FC58B034CA2D888 /* PBXContainerItemProxy */;
+		};
+		8237B7057D245FC7AD4FCD2ADDEC718C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UBShareActivities_Example";
+			target = A21C9BAC0266606633CB5761BA1D66D4 /* Pods-UBShareActivities_Example */;
+			targetProxy = 635AC8103FFD511DFE6E98A7D0FD2B58 /* PBXContainerItemProxy */;
+		};
+		ACD8C541F414ED0E941B6A877FCD8ABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 1408EB6627BB243464926A43CC685DC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AB572112B0A7813088307FFEFAA4865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACC2C7DDBD9507F48A02288541424CE /* Pods-UBShareActivities_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBShareActivities_Tests/Pods-UBShareActivities_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBShareActivities_Tests/Pods-UBShareActivities_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		57E0B8C313C665B8C4A1CD9DF07681D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3DE14E0D566BAD353EED578A94AADEA /* Pods-UBShareActivities_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBShareActivities_Tests/Pods-UBShareActivities_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBShareActivities_Tests/Pods-UBShareActivities_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DEF08BEE7F097A9F0B82CCAE03E48E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D084E65EE17A2CE6D65D92EF8B8587 /* Pods-UBShareActivities_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBShareActivities_Example/Pods-UBShareActivities_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBShareActivities_Example/Pods-UBShareActivities_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		609C152726FB7B96923E36BA406EF3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2E1DFE513768D40E08A8CFE95993D2 /* UBShareActivities.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UBShareActivities/UBShareActivities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UBShareActivities/UBShareActivities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UBShareActivities/UBShareActivities.modulemap";
+				PRODUCT_MODULE_NAME = UBShareActivities;
+				PRODUCT_NAME = UBShareActivities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B3FEC1082E4FD5CBF1106CD52A5CB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C949B192CD7A0FD275C8F31741F1A12 /* Pods-UBShareActivities_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBShareActivities_Example/Pods-UBShareActivities_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBShareActivities_Example/Pods-UBShareActivities_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		86D2C6F92395E34125E6EFDFFD02E024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D780B40853327DD8090431A6577005D1 /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0794ADC23761210BE7B8EB96245D330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D780B40853327DD8090431A6577005D1 /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8FC500A32BCBF79EBFE1A46121B9ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2E1DFE513768D40E08A8CFE95993D2 /* UBShareActivities.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UBShareActivities/UBShareActivities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UBShareActivities/UBShareActivities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UBShareActivities/UBShareActivities.modulemap";
+				PRODUCT_MODULE_NAME = UBShareActivities;
+				PRODUCT_NAME = UBShareActivities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D09FC04F20F725A4C59CAFF12D6035 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0794ADC23761210BE7B8EB96245D330 /* Debug */,
+				86D2C6F92395E34125E6EFDFFD02E024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EFF6EED21D9D03440DA77CADC75D80 /* Build configuration list for PBXNativeTarget "Pods-UBShareActivities_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB572112B0A7813088307FFEFAA4865 /* Debug */,
+				57E0B8C313C665B8C4A1CD9DF07681D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811C8A4B5A9BED0C4D70E8710E36FA63 /* Build configuration list for PBXNativeTarget "Pods-UBShareActivities_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEF08BEE7F097A9F0B82CCAE03E48E1 /* Debug */,
+				6B3FEC1082E4FD5CBF1106CD52A5CB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93442ABD0CAFB8EEE55E21C5A71D75F4 /* Build configuration list for PBXNativeTarget "UBShareActivities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FC500A32BCBF79EBFE1A46121B9ACB /* Debug */,
+				609C152726FB7B96923E36BA406EF3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
