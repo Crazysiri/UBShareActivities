@@ -32,10 +32,14 @@ TODO: Add long description of the pod here.
 
 #  s.source_files = 'UBShareActivities/Classes/**/*'
 
-
   s.subspec 'Wechat' do |wechat|
       wechat.source_files = 'UBShareActivities/Classes/Wechat'
       wechat.dependency 'WechatOpenSDK'
+      wechat.pod_target_xcconfig = {
+        'LIBRARY_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/WechatOpenSDK/**/*',
+        'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
+      }
+       
   end
   # s.resource_bundles = {
   #   'UBShareActivities' => ['UBShareActivities/Assets/*.png']
