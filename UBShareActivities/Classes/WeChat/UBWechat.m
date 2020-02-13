@@ -4,6 +4,8 @@
 
 #import "UIImage+maker.h"
 
+static UBWechat *_shared_wechat;
+
 static NSDictionary *_wechat_config;
 
 static NSString *_current_app_id; //记录当前app id
@@ -37,11 +39,16 @@ static NSString *_current_app_id; //记录当前app id
     _current_app_id = config[WECHAT_KEY_APP_ID];
 }
 
+
+
 + (UBWechat *)wechat
 {
     return [UBWechat wechatWithConfig:_wechat_config];
 }
 
++ (UBWechat *)currentWechat {
+    return _shared_wechat;
+}
 
 + (UBWechat *)wechatWithConfig:(NSDictionary *)config {
     
@@ -53,7 +60,6 @@ static NSString *_current_app_id; //记录当前app id
     }
     
     static dispatch_once_t onceToken;
-    static UBWechat *_shared_wechat;
     dispatch_once(&onceToken, ^{
         if (!_shared_wechat) {
             _shared_wechat = [[UBWechat alloc] init];
@@ -90,20 +96,20 @@ static NSString *_current_app_id; //记录当前app id
 
 
 
-- (BOOL)wechatHandleOpenURL:(NSURL *)url
++ (BOOL)handleOpenURL:(NSURL *)url;
 {
-
-    NSRange range = [url.absoluteString rangeOfString: self.appid];
+    
+    NSRange range = [url.absoluteString rangeOfString: [self currentWechat].appid];
     if (range.location != NSNotFound) {
-        return [WXApi handleOpenURL:url delegate:self];
+        return [WXApi handleOpenURL:url delegate:[self currentWechat]];
     }
     return NO;
 }
 
 
-- (BOOL)wechatHandleUserActivity:(NSUserActivity *)activity;
++ (BOOL)handleUserActivity:(NSUserActivity *)activity;
 {
-    return [WXApi handleOpenUniversalLink:activity delegate:self];
+    return [WXApi handleOpenUniversalLink:activity delegate:[self currentWechat]];
 }
 
 

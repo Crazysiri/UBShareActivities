@@ -59,7 +59,7 @@ typedef void(^wechatLoginCompletion)(BOOL success,NSString *code);
  *
  *  @return BOOL
  */
-- (BOOL)wechatHandleOpenURL:(NSURL *)url;
++ (BOOL)handleOpenURL:(NSURL *)url;
 
 /**
  *  微信handle
@@ -68,7 +68,7 @@ typedef void(^wechatLoginCompletion)(BOOL success,NSString *code);
  *
  *  @return BOOL
  */
-- (BOOL)wechatHandleUserActivity:(NSUserActivity *)activity;
++ (BOOL)handleUserActivity:(NSUserActivity *)activity;
 
 
 #pragma mark - functions
