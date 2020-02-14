@@ -41,12 +41,21 @@ TODO: Add long description of the pod here.
       }
        
   end
-  s.subspec 'Weibo' do |wechat|
-      wechat.source_files = 'UBShareActivities/Classes/Weibo'
-      wechat.dependency 'Weibo_SDK'
-      wechat.pod_target_xcconfig = {
+  s.subspec 'Weibo' do |weibo|
+      weibo.source_files = 'UBShareActivities/Classes/Weibo'
+      weibo.dependency 'Weibo_SDK'
+      weibo.pod_target_xcconfig = {
         'LIBRARY_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/Weibo_SDK/libWeiboSDK/',
         'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
+      }
+       
+  end
+  s.subspec 'QQ' do |qq|
+      qq.source_files = 'UBShareActivities/Classes/QQ'
+      qq.dependency 'TencentOpenAPI-Unofficial'
+      qq.pod_target_xcconfig = {
+          'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/TencentOpenAPI-Unofficial/sdk/',
+          'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
       }
        
   end

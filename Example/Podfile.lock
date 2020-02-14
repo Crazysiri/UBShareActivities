@@ -1,7 +1,11 @@
 PODS:
+  - TencentOpenAPI-Unofficial (3.3.5)
   - UBShareActivities (0.1.0):
+    - UBShareActivities/QQ (= 0.1.0)
     - UBShareActivities/Wechat (= 0.1.0)
     - UBShareActivities/Weibo (= 0.1.0)
+  - UBShareActivities/QQ (0.1.0):
+    - TencentOpenAPI-Unofficial
   - UBShareActivities/Wechat (0.1.0):
     - WechatOpenSDK
   - UBShareActivities/Weibo (0.1.0):
@@ -14,6 +18,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - TencentOpenAPI-Unofficial
     - WechatOpenSDK
     - Weibo_SDK
 
@@ -22,7 +27,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UBShareActivities: 7a0f9f339c38b40ebbda66a7192543add6daf790
+  TencentOpenAPI-Unofficial: bb112eb0f173390ea1bb2fd52270a808b0aa0057
+  UBShareActivities: b94648429049051cb2ebd0264812cab86f9553cf
   WechatOpenSDK: 368ae03b72ee3ea1328c4f11326fbb5d2721d118
   Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
 

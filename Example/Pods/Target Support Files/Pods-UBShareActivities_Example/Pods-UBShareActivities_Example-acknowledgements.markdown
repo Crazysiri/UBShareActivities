@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## TencentOpenAPI-Unofficial
+
+® 1998 - 2018 Tencent All Rights Reserved.
+
+
 ## UBShareActivities
 
 MIT License

@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UBQQ.h"
+#import "UBQQConfig.h"
 #import "UBWechat.h"
 #import "UBWechatPayConfig.h"
 #import "UIImage+maker.h"
