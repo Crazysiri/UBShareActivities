@@ -1,9 +1,13 @@
 PODS:
   - UBShareActivities (0.1.0):
     - UBShareActivities/Wechat (= 0.1.0)
+    - UBShareActivities/Weibo (= 0.1.0)
   - UBShareActivities/Wechat (0.1.0):
     - WechatOpenSDK
+  - UBShareActivities/Weibo (0.1.0):
+    - Weibo_SDK
   - WechatOpenSDK (1.8.6)
+  - Weibo_SDK (3.2.3)
 
 DEPENDENCIES:
   - UBShareActivities (from `../`)
@@ -11,14 +15,16 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - WechatOpenSDK
+    - Weibo_SDK
 
 EXTERNAL SOURCES:
   UBShareActivities:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UBShareActivities: e75ab212a413f3ffd2eabf9cb4e615599d5e0e36
+  UBShareActivities: 7a0f9f339c38b40ebbda66a7192543add6daf790
   WechatOpenSDK: 368ae03b72ee3ea1328c4f11326fbb5d2721d118
+  Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
 
 PODFILE CHECKSUM: 9aea528a587e51571b03c7ff1930e6388623c8b0
 

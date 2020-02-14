@@ -41,6 +41,15 @@ TODO: Add long description of the pod here.
       }
        
   end
+  s.subspec 'Weibo' do |wechat|
+      wechat.source_files = 'UBShareActivities/Classes/Weibo'
+      wechat.dependency 'Weibo_SDK'
+      wechat.pod_target_xcconfig = {
+        'LIBRARY_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/Weibo_SDK/libWeiboSDK/',
+        'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
+      }
+       
+  end
   # s.resource_bundles = {
   #   'UBShareActivities' => ['UBShareActivities/Assets/*.png']
   # }
