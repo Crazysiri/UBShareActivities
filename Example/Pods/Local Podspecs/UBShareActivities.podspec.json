@@ -57,6 +57,10 @@
         "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/TencentOpenAPI-Unofficial/sdk/",
         "OTHER_LDFLAGS": "$(inherited) -undefined dynamic_lookup"
       }
+    },
+    {
+      "name": "System",
+      "source_files": "UBShareActivities/Classes/System"
     }
   ]
 }

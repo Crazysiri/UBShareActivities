@@ -2,10 +2,12 @@ PODS:
   - TencentOpenAPI-Unofficial (3.3.5)
   - UBShareActivities (0.1.0):
     - UBShareActivities/QQ (= 0.1.0)
+    - UBShareActivities/System (= 0.1.0)
     - UBShareActivities/Wechat (= 0.1.0)
     - UBShareActivities/Weibo (= 0.1.0)
   - UBShareActivities/QQ (0.1.0):
     - TencentOpenAPI-Unofficial
+  - UBShareActivities/System (0.1.0)
   - UBShareActivities/Wechat (0.1.0):
     - WechatOpenSDK
   - UBShareActivities/Weibo (0.1.0):
@@ -28,7 +30,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   TencentOpenAPI-Unofficial: bb112eb0f173390ea1bb2fd52270a808b0aa0057
-  UBShareActivities: b94648429049051cb2ebd0264812cab86f9553cf
+  UBShareActivities: f51e1d124d7843eae21263063ad576a925592d30
   WechatOpenSDK: 368ae03b72ee3ea1328c4f11326fbb5d2721d118
   Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
 
