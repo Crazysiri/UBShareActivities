@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBShareActivities'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of UBShareActivities.'
 
 # This description is used to generate tags and improve search results.
@@ -58,6 +58,9 @@ TODO: Add long description of the pod here.
           'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
       }
        
+  end
+  s.subspec 'System' do |sys|
+      sys.source_files = 'UBShareActivities/Classes/System'
   end
   # s.resource_bundles = {
   #   'UBShareActivities' => ['UBShareActivities/Assets/*.png']
