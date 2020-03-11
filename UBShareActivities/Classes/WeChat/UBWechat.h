@@ -9,11 +9,10 @@
 #import "UBWechatPayConfig.h"
 
 #define WECHAT_KEY_APP_ID @"id" //app id
-#define WECHAT_KEY_OPEN_ID @"open" //open id
 #define WECHAT_KEY_LINK @"link" //univeralLink
 
 // https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/iOS.html
-
+//openID ： https://www.jianshu.com/p/b7e2100b56e4
 typedef enum WeiXinScene
 {
     WeiXinSceneSession   = 0,   // 会话
@@ -24,7 +23,7 @@ typedef void(^wechatNormalCompletion)(BOOL success,NSString *message);
 typedef void(^wechatLoginCompletion)(BOOL success,NSString *code);
 
 
-@interface UBWechat : NSObject 
+@interface UBWechat : NSObject
 
 #pragma mark - config / get instance
 /**

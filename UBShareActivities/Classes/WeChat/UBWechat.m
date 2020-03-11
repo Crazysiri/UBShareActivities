@@ -52,9 +52,9 @@ static NSString *_current_app_id; //记录当前app id
 
 + (UBWechat *)wechatWithConfig:(NSDictionary *)config {
     
-    if (!config || !config[WECHAT_KEY_APP_ID] || !config[WECHAT_KEY_LINK] || !config[WECHAT_KEY_OPEN_ID]) {
+    if (!config || !config[WECHAT_KEY_APP_ID] || !config[WECHAT_KEY_LINK]) {
         
-        NSException *exception = [NSException exceptionWithName:@"参数设置错误" reason:@"请先调用 setConfig 设置 @{\"id\":\"\",\"link\":\"\",\"open\":\"\"}" userInfo:nil];
+        NSException *exception = [NSException exceptionWithName:@"参数设置错误" reason:@"请先调用 setConfig 设置 @{\"id\":\"\",\"link\":\"\"}" userInfo:nil];
         [exception raise];
         return nil;
     }
@@ -67,7 +67,6 @@ static NSString *_current_app_id; //记录当前app id
     });
     _shared_wechat.appid = config[WECHAT_KEY_APP_ID];
     _shared_wechat.link = config[WECHAT_KEY_LINK];
-    _shared_wechat.openid = config[WECHAT_KEY_OPEN_ID];
     
     
     if (_current_app_id != _shared_wechat.appid) { //如果不一样 才注册
@@ -124,8 +123,10 @@ static NSString *_current_app_id; //记录当前app id
     
     SendAuthReq* req = [[SendAuthReq alloc ] init ];
     req.scope = @"snsapi_message,snsapi_userinfo,snsapi_friend,snsapi_contact" ;
-    req.state = @"xxx"; //TODO: 这块也需要外部设置
-    req.openID = self.openid;
+    
+    NSString *timeSp = [NSString stringWithFormat:@"%ld", (long)[NSDate.date timeIntervalSince1970]];
+
+    req.state = timeSp; //用于保持请求和回调的状态，授权请求后原样带回给第三方。该参数可用于防止 csrf 攻击（跨站请求伪造攻击），建议第三方带上该参数，可设置为简单的随机数加 session 进行校验
     
     UIViewController *root = [UIApplication sharedApplication].delegate.window.rootViewController;
     
@@ -186,7 +187,11 @@ static NSString *_current_app_id; //记录当前app id
     req.message = message;
     req.scene = wxScene;//发送的目标场景， 可以选择发送到会话(WXSceneSession)或者朋友圈(WXSceneTimeline)。
     
-    [WXApi sendReq:req completion:nil];
+    [WXApi sendReq:req completion:^(BOOL success) {
+        if (completionBlock) {
+            completionBlock(success,@"未知状态！");
+        }
+    }];
 }
 
 
@@ -225,7 +230,11 @@ static NSString *_current_app_id; //记录当前app id
     req.bText = NO;  //yes代表纯文本 no代表多媒体
     req.message = message;
     req.scene = wxScene;  //发送的目标场景， 可以选择发送到会话(WXSceneSession)或者朋友圈(WXSceneTimeline)。
-    [WXApi sendReq:req completion:nil];
+    [WXApi sendReq:req completion:^(BOOL success) {
+        if (completionBlock) {
+            completionBlock(success,@"未知状态！");
+        }
+    }];
 }
 
 
