@@ -187,11 +187,7 @@ static NSString *_current_app_id; //记录当前app id
     req.message = message;
     req.scene = wxScene;//发送的目标场景， 可以选择发送到会话(WXSceneSession)或者朋友圈(WXSceneTimeline)。
     
-    [WXApi sendReq:req completion:^(BOOL success) {
-        if (completionBlock) {
-            completionBlock(success,@"未知状态！");
-        }
-    }];
+    [WXApi sendReq:req completion:nil];
 }
 
 
@@ -230,11 +226,7 @@ static NSString *_current_app_id; //记录当前app id
     req.bText = NO;  //yes代表纯文本 no代表多媒体
     req.message = message;
     req.scene = wxScene;  //发送的目标场景， 可以选择发送到会话(WXSceneSession)或者朋友圈(WXSceneTimeline)。
-    [WXApi sendReq:req completion:^(BOOL success) {
-        if (completionBlock) {
-            completionBlock(success,@"未知状态！");
-        }
-    }];
+    [WXApi sendReq:req completion:nil];
 }
 
 
